@@ -1,0 +1,46 @@
+.side-bar{
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    padding-top: 25px;
+}
+.home{
+    height: 24px;
+}
+
+.explore{
+    height: 24px;
+}
+.subscriptions{
+    height: 24px;
+}
+.originals{
+    height: 24px;
+}
+.youtube-music{
+    height: 24px;
+}
+.library{
+    height: 24px;
+}
+.home-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.home-flex:hover{
+    background-color: lightgrey;
+}
+.all-side-text{
+    font-size:10px
+}
